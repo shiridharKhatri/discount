@@ -173,7 +173,7 @@ html .container .form button {
   html .container .form label {
     top: 0;
     font-size: 4rem;
-    margin-top: 5rem;
+    margin-top: 3rem;
   }
   html .container .form input {
     top: 0;
@@ -181,7 +181,7 @@ html .container .form button {
     padding: 2.5rem;
   }
   html .container .form button {
-    margin-top: 7rem;
+    margin-top: 5rem;
     padding: 3rem;
   }
 }/*# sourceMappingURL=style.css.map */
