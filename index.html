@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/c7b5815651.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Discount Finder</title>
+  </head>
+  <body onload="loadingDisp()">
+    <section class="loader">
+      <img src="image/loader.gif" />
+    </section>
+    <section class="container">
+      <div class="form">
+        <div class="borderLine">
+          <h1><i class="fa-solid fa-leaf"></i> Price After Discount</h1>
+          <span class="screen">
+            <i class="fa-solid fa-caret-right"></i> Your price comes here
+          </span>
+          <h1><i class="fa-solid fa-leaf"></i> Discount Price</h1>
+          <span class="screen">
+            <i class="fa-solid fa-caret-right"></i> Your total savings
+          </span>
+        </div>
+
+        <label for="realPrice">Price <i class="fa-solid fa-wallet"></i></label>
+        <input type="number" placeholder="Enter Real Price" id="realPrice" />
+        <label for="discountPercent"
+          >Percentage <i class="fa-solid fa-percent"></i
+        ></label>
+        <input
+          type="number"
+          placeholder="Enter Discount Percentage"
+          id="discountPercent"
+        />
+        <button id="calculate">
+          Calculate <i class="fa-solid fa-angles-right"></i>
+        </button>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>

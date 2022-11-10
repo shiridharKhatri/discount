@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Combo&family=Concert+One&family=Dancing+Script&family=DynaPuff:wght@400;500&family=Lexend:wght@500&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@100&family=Qwitcher+Grypen&family=Roboto:ital,wght@1,100&family=Rubik:wght@300&family=Silkscreen&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+section {
+  overflow: hidden;
+  white-space: wrap;
+  word-break: break-word;
+}
+
+html {
+  font-size: 62.6%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  background-image: url("image/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 1rem;
+}
+html .loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  height: 100vh;
+  width: 100%;
+  background-color: #fff;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+}
+html .loader img {
+  height: 30rem;
+}
+html .container {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  padding: 1rem;
+}
+html .container .form {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: -moz-flex;
+  display: -ms-flex;
+  display: flex;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  align-items: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  justify-content: center;
+  flex-direction: column;
+  height: auto;
+}
+html .container .form .borderLine {
+  position: relative;
+  top: 0%;
+  width: 95%;
+  height: auto;
+  padding: 1rem;
+  border-radius: 3rem;
+  border: 0.3rem solid #445;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+html .container .form .borderLine h1 {
+  font-size: 2.5rem;
+  color: #445;
+  padding: 1rem;
+  width: 90%;
+}
+html .container .form .borderLine span {
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 80%;
+  color: #445;
+  padding: 1rem;
+  font-size: 2rem;
+  transition: 0.3s ease;
+}
+html .container .form label {
+  position: relative;
+  top: 5%;
+  font-size: 3rem;
+  width: 95%;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+  font-weight: bold;
+  color: #445;
+}
+html .container .form input {
+  width: 95%;
+  padding: 2rem;
+  font-size: 2rem;
+  border-radius: 0.5rem;
+  border: none;
+  outline: none;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  color: #445;
+}
+html .container .form button {
+  padding: 2rem;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
+  width: 90%;
+  border-radius: 4rem;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  border: 0.1rem solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.3);
+  -webkit-backdrop-filter: blur(1rem);
+          backdrop-filter: blur(1rem);
+  color: #445;
+  -webkit-tap-highlight-color: transparent;
+  -moz-tap-highlight-color: transparent;
+  -o-tap-highlight-color: transparent;
+}
+
+@media (min-device-width: 320px) and (max-device-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  html .container .form {
+    height: 97vh;
+    position: relative;
+  }
+  html .container .form .borderLine {
+    top: 0;
+  }
+  html .container .form .borderLine span {
+    margin-bottom: 2rem;
+    padding: 2.5rem;
+  }
+  html .container .form label {
+    top: 0;
+    font-size: 4rem;
+    margin-top: 5rem;
+  }
+  html .container .form input {
+    top: 0;
+    border-radius: 3rem;
+    padding: 2.5rem;
+  }
+  html .container .form button {
+    margin-top: 7rem;
+    padding: 3rem;
+  }
+}/*# sourceMappingURL=style.css.map */
