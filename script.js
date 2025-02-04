@@ -30,7 +30,7 @@ btn.addEventListener("click", (e) => {
       }
     }
     const cal = new Calculations(inpPrice.value, inpDiscount.value);
-    screen[1].innerHTML = `Babe you saved ${cal.afterDiscountPrice()} <i class="fa-solid fa-yen-sign"></i>`;
+    screen[1].innerHTML = `you saved ${cal.afterDiscountPrice()} <i class="fa-solid fa-yen-sign"></i>`;
     screen[1].style.backgroundColor = "#445";
     screen[1].style.color = "#fff";
     const disCal = new newCal(inpPrice.value, inpDiscount.value);
